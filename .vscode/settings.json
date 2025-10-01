@@ -9,7 +9,7 @@
   "prettier.formatAlreadyFormattedFilesOnSave": false,
   "files.eol": "\n",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "all"
   },
   "eslint.workingDirectories": [
     {

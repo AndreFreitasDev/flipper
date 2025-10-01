@@ -30,11 +30,11 @@ export default class Watchman {
       const onError = (err: Error) => {
         // TODO: Fix this the next time the file is edited.
         // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-        this.client!.removeAllListeners('error');
+        this.client?.removeAllListeners('error');
         reject(err);
         // TODO: Fix this the next time the file is edited.
         // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-        this.client!.end();
+        this.client?.end();
         delete this.client;
       };
 

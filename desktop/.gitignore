@@ -13,3 +13,6 @@ tsc-error.log
 /static/flipper-server-log*
 /static/.audit.json
 /static/icons/*_d.png
+
+# Corrigindo problema de compatibilidade do OpenSSL no Ubuntu 25.04
+/node_modules/openssl-wrapper/lib/index.js
